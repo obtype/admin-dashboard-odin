@@ -269,11 +269,26 @@ ul {
 	margin-bottom: 3px;
 }
 
+
 .main-content > .trending {
 	grid-area: 2/2/3/3;
 }
 
-/* .trending > ul {
-	
+.trending img {
+	border-radius: 50px;
+	border: solid #f87171	3px;
+	height: 40px;
 }
- */
+
+.trending li {
+	display:flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 30px;
+	color: #555555;
+}
+
+.trending .name {
+	
+	color: black;
+}
